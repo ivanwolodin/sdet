@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    env_file:
+      - .env
+    ports:
+      - "80:${BACKEND_PORT}"
+    
+      
+  frontend:
+    build: ./frontend
+    env_file:
+      - .env
+    ports:
+      - "3000:${FRONTEND_PORT}"
