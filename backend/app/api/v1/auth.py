@@ -1,4 +1,4 @@
-from app.auth_service.authenticator import AuthService, get_auth_service
+from app.services.authenticator import AuthService, get_auth_service
 from app.schemas.auth import LoginData
 from fastapi import APIRouter, Depends, HTTPException, status
 

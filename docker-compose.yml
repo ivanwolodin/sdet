@@ -7,8 +7,7 @@ services:
       - .env
     ports:
       - "80:${BACKEND_PORT}"
-    
-      
+
   frontend:
     build: ./frontend
     env_file:
