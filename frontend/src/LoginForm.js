@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8000/api/v1/login";
 
 function LoginForm() {
   const [login, setLogin] = useState('');

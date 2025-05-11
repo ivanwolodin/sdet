@@ -174,3 +174,8 @@ cython_debug/
 .pypirc
 
 .vscode/
+frontend/node_modules/
+frontend/package-lock.json
+*/node_modules/*
+.DS_Store
+/results
