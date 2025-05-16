@@ -38,7 +38,7 @@ function LoginForm() {
     <form onSubmit={handleLogin}>
       <div>
         <label>Username:</label><br />
-        <input value={login} onChange={(e) => setLogin(e.target.value)} required />
+        <input type="text" value={login} onChange={(e) => setLogin(e.target.value)} required />
       </div>
       <div>
         <label>Password:</label><br />
